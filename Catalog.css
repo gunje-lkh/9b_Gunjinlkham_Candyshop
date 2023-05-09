@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.top {
+  background-color: #e6b3cc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20%;
+  padding: 0 20px;
+}
+
+.top button {
+  margin: 0;
+  font-size: 36px;
+  color: #fff;
+  border: none;
+  background-color: #e6b3cc;
+  cursor: pointer;
+}
+
+.top img {
+  width: 50px;
+  height: 50px;
+}
+
+.mid {
+  height: 70%;
+}
+.mid1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.mid h2 {
+  font-size: 3rem;
+  color: #fff;
+  background-color: #ebc4d7;
+  padding: 5px;
+  border-radius: 6px;
+}
+.x{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+  margin: 10px;
+}
+.y{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+  margin: 10px;
+}
+.mid2 button:nth-of-type(1){
+  width: 300px;
+  height: 300px;
+  background-image: url("https://studyfinds.org/wp-content/uploads/2023/01/denny-muller-mGP8gyGb8zY-unsplash-500x320.jpg");
+  background-size: cover;
+  background-position: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  font-size: 50px;
+  color: white;
+  -webkit-text-stroke: 1px #ebc4d7;
+}
+.mid3 button:nth-of-type(1){
+  width: 300px;
+  height: 300px;
+  background-image: url("https://static01.nyt.com/images/2022/04/27/dining/27gummy1/merlin_205647270_b2a46fdb-1937-4c06-aa78-54a122484914-videoSixteenByNine3000.jpg");
+  background-size: cover;
+  background-position: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  font-size: 50px;
+  color: white;
+  -webkit-text-stroke: 1px #ebc4d7;
+  vertical-align: top;
+}
+.mid4 button:nth-of-type(1){
+  width: 300px;
+  height: 300px;
+  background-image: url("https://i.pinimg.com/originals/f0/29/17/f0291797098065309c4d2cb0f57a1429.jpg");
+  background-size: cover;
+  background-position: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  font-size: 50px;
+  color: white;
+  -webkit-text-stroke: 1px #ebc4d7;
+}
+.mid5 button:nth-of-type(1){
+  width: 300px;
+  height: 300px;
+  background-image: url("https://t4.ftcdn.net/jpg/02/83/41/67/360_F_283416744_nG1QI5FZiCGrHmMvnG7ZI9W9NAqq5kui.jpg");
+  background-size: cover;
+  background-position: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  font-size: 50px;
+  color: white;
+  -webkit-text-stroke: 1px #ebc4d7;
+}
+.bottom {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+  text-align: center;
+}
+
+
+
+.bottom h3 {
+  color: #666;
+}

@@ -1,0 +1,72 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #f2e8eb;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  h1, h2, h3, h4 {
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .top {
+    background-color: #e6b3cc;
+    padding: 20px;
+  }
+  
+  .mid {
+    padding: 20px;
+  }
+  
+  .signup {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .signup p {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .signup input[type="text"],
+  .signup input[type="email"],
+  .signup input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup button {
+    background-color: #e6b3cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup button:hover {
+    background-color: #d29cb4;
+  }
+  
+  .bottom {
+    background-color: #e6b3cc;
+    padding: 20px;
+    text-align: center;
+  }
+  

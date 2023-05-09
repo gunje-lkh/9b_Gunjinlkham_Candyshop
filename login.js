@@ -1,4 +1,4 @@
-window.onload = openEvent()
+window.onload = openEvent;
 const userData = [
   {
     name: "nest",
@@ -30,6 +30,7 @@ function Signup() {
             secA: secA,
           };
           userData.push(newUser);
+          window.location.replace("./Homepage.html");
         } else {
           alert("fill the other inputs");
         }
@@ -43,7 +44,6 @@ function Signup() {
     alert("pass is too short");
   }
   console.log(userData);
-  window.location.replace("./Homepage.html");
 }
 function Login() {
   let email = document.getElementById("lemail").value;
@@ -51,6 +51,9 @@ function Login() {
   for (let i = 0; i < userData.length; i++) {
     if (userData[i].email == email && userData[i].password == pass) {
       window.location.replace("./Homepage.html");
+    }
+    else{
+      alert("incorrect password or invalid account")
     }
   }
 }
